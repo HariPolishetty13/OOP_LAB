@@ -1,0 +1,47 @@
+Simple program USing Structures 
+//1.Create a class name “GreatestNumber” and define a method that displays the greatest among the three-given number. 
+package week1;   // This is the package created 
+
+import java.util.Scanner; 
+
+public class GreatestNumber { 
+
+  
+
+public static void main(String[] args) { 
+
+Scanner sc = new Scanner(System.in); 
+
+System.out.println("Enter The three numbers a,b,c :");  
+
+float a =  sc.nextInt(); // i have used flaot considering the decimals
+
+float b =  sc.nextInt(); 
+
+float c =  sc.nextInt(); 
+
+if(a>b && a>c)         //using else if 
+
+System.out.println("greatest is :"+a); 
+
+else if (b>a && b>c) 
+
+System.out.println("greatest is :"+b); 
+
+else if(a==b && b==c) 
+
+System.out.println("the  entered numbers are same "); 
+
+else  
+
+        System.out.println("greatest is :"+c); 
+
+
+
+  
+
+} 
+
+  
+
+} 
